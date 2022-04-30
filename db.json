@@ -1,0 +1,28 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "title": "Task 1",
+        "person": "Fabián",
+        "state": "to-do",
+        "deadline": 1651347751,
+        "created": 1651606951
+      },
+      {
+        "id": 2,
+        "title": "Task 2",
+        "person": "Fabián",
+        "state": "in-progress",
+        "deadline": 1651347751,
+        "created": 1651606951
+      },
+      {
+        "id": 3,
+        "title": "Task 3",
+        "person": "Fabián",
+        "state": "done",
+        "deadline": 1651347751,
+        "created": 1651606951
+      }
+    ]
+  }
