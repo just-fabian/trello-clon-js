@@ -1,28 +1,66 @@
-{
-    "tasks": [
-      {
-        "id": 1,
-        "title": "Task 1",
-        "person": "Fabián",
-        "state": "to-do",
-        "deadline": 1651347751,
-        "created": 1651606951
-      },
-      {
-        "id": 2,
-        "title": "Task 2",
-        "person": "Fabián",
-        "state": "in-progress",
-        "deadline": 1651347751,
-        "created": 1651606951
-      },
-      {
-        "id": 3,
-        "title": "Task 3",
-        "person": "Fabián",
-        "state": "done",
-        "deadline": 1651347751,
-        "created": 1651606951
-      }
-    ]
+[
+  {
+    "id": 1,
+    "title": "Importar estilos CSS",
+    "person": "beto",
+    "state": "to-do",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  {
+    "id": 6,
+    "title": "Importar librerías necesarias",
+    "person": "beto",
+    "state": "to-do",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  {
+    "id": 7,
+    "title": "Escribir scripts",
+    "person": "beto",
+    "state": "to-do",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  {
+    "id": 7,
+    "title": "Subir el proyecto a la nube",
+    "person": "beto",
+    "state": "to-do",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  {
+    "id": 2,
+    "title": "Marcado HTML del proyecto",
+    "person": "beto",
+    "state": "in-progress",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  {
+    "id": 3,
+    "title": "Planificar el proyecto",
+    "person": "beto",
+    "state": "done",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  {
+    "id": 4,
+    "title": "Dibujar Wireframes",
+    "person": "beto",
+    "state": "done",
+    "deadline": 1591802130,
+    "created": 1591370128
+  },
+  {
+    "id": 5,
+    "title": "Escribir requerimientos",
+    "person": "beto",
+    "state": "done",
+    "deadline": 1591802130,
+    "created": 1591370128
   }
+]

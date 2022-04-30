@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
     <title>Trello clon</title>
 </head>
-<body>
+<body id="body">
     <header>
         <div class="header-container">
             <img src="/images/logo.png.crdownload" alt="Logo">
@@ -18,69 +19,24 @@
             <h1>Trello Clon</h1>
             <div class="container">
                 <h2>TO DO</h2>
-                <div class="task-container">
-                    <article class="task">
-                        <h3>Crear JSON del proyecto</h3>
-                        <p>Responsable: <span>Fabián Romero Claros</span></p>
-                        <p>Plazo: <span>05-06-2020</span></p>
-                    </article>
-                    <article class="task">
-                        <h3>Crear JSON del proyecto</h3>
-                        <p>Responsable: <span>Fabián Romero Claros</span></p>
-                        <p>Plazo: <span>05-06-2020</span></p>
-                    </article>
-                    <article class="task">
-                        <h3>Crear JSON del proyecto</h3>
-                        <p>Responsable: <span>Fabián Romero Claros</span></p>
-                        <p>Plazo: <span>05-06-2020</span></p>
-                    </article>
-                    <article class="task">
-                        <h3>Crear JSON del proyecto</h3>
-                        <p>Responsable: <span>Fabián Romero Claros</span></p>
-                        <p>Plazo: <span>05-06-2020</span></p>
-                    </article>
-                    <article class="task">
-                        <h3>Crear JSON del proyecto</h3>
-                        <p>Responsable: <span>Fabián Romero Claros</span></p>
-                        <p>Plazo: <span>05-06-2020</span></p>
-                    </article>
+                <div class="task-container" id="todoTasks">
                 </div>
             </div>
 
             <div class="container">
                 <h2>IN PROGRESS</h2>
-                <div class="task-container">
-                    <article class="task">
-                        <h3>Crear JSON del proyecto</h3>
-                        <p>Responsable: <span>Fabián Romero Claros</span></p>
-                        <p>Plazo: <span>05-06-2020</span></p>
-                    </article>
-                    <article class="task">
-                        <h3>Crear JSON del proyecto</h3>
-                        <p>Responsable: <span>Fabián Romero Claros</span></p>
-                        <p>Plazo: <span>05-06-2020</span></p>
-                    </article>
+                <div class="task-container" id="inProgressTasks"> 
                 </div>
             </div>
 
             <div class="container">
                 <h2>DONE</h2>
-                <div class="task-container">
-                    <article class="task">
-                        <h3>Crear JSON del proyecto</h3>
-                        <p>Responsable: <span>Fabián Romero Claros</span></p>
-                        <p>Plazo: <span>05-06-2020</span></p>
-                    </article>
-                    <article class="task">
-                        <h3>Crear JSON del proyecto</h3>
-                        <p>Responsable: <span>Fabián Romero Claros</span></p>
-                        <p>Plazo: <span>05-06-2020</span></p>
-                    </article>
+                <div class="task-container" id="doneTasks">
                 </div>
             </div>
         </div>
     </main>
-    <aside>
+    <aside id="formElement">
         <div class="aside-container">
             <h2>New Task</h2>
         </div>
@@ -110,10 +66,19 @@
                 </div>
                 <div class="action-container">
                     <button type="submit">Save</button>
-                    <button type="reset">Cancel</button>
+                    <button type="reset" id="cancelForm">Cancel</button>
                 </div>
             </form>
         </div>
     </aside>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+
+    <script src="/scripts/helpers.js"></script>
+    <script src="/scripts/dates.js"></script>
+    <script src="/scripts/gestures.js"></script>
+    <script src="/scripts/petitions.js"></script>
 </body>
 </html>
